@@ -11,10 +11,6 @@ class MaxHeap {
 		let node = new Node(data, priority);
 		this.insertNode(node);
 		this.shiftNodeUp(node);
-		console.log("*******************");
-			console.log("array after push: " + this._size);
-			console.log(this.parentNodes);
-			console.log("        ");
 	}
 
 	pop() {	
