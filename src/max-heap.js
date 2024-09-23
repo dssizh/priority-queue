@@ -13,6 +13,10 @@ class MaxHeap {
 		this.shiftNodeUp(node);
 	}
 
+	push2() {
+	return 1;
+	}
+
 	pop() {	
 		if (!this.isEmpty()) {
 			let detach = this.detachRoot();
